@@ -3,21 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Area of Rectangle</title>
+    <title>Assignment</title>
   </head>
   <body>
 
 
     <script>
+
+      //Area of Rectangle
       function calculateRectangleArea(length, width) {
         return length * width;
       }
-
       // Example usage
       var length = 5;
       var width = 3;
       var area = calculateRectangleArea(length, width);
       console.log("The area of the rectangle is: " + area);
+
+
+
+      //Celsius to Fahrenheit 
+      function CelsiusToFahrenheit(celsius){
+        let fahrenheit = (celsius * 9/5) +32;
+        return console.log(`${celsius} degrees Celsius is equal to ${fahrenheit} degrees Fahrenheit.`);
+      }
+      CelsiusToFahrenheit(32);
+
+
+
+      //Fahrenheit to Celsius
+      function FahrenheitToCelsious(fahrenheit){
+        let celsius = (fahrenheit - 32) * 5/9;
+        return console.log(`${fahrenheit} degrees Fahrenheit is equal to ${celsius} degrees Celsious.`);
+      }
+      FahrenheitToCelsious(69);
+
+
     </script>
   </body>
 </html>
